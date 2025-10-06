@@ -289,7 +289,7 @@ a.logo-link:active {
     height: 5vh;                    
     padding: 0 6%;                   
     justify-content: center;          
-    gap: 20vw;                         
+    gap: 30vw;
   }
   .charac {
     font-size: clamp(14px, 4.2vw, 18px);
@@ -329,7 +329,7 @@ a.logo-link:active {
   .mid-footer-pic {
     margin-bottom: 0px; 
     height: 12.5vh;                 
-    max-width: 40vw;
+    max-width: auto;
     object-fit: contain;
     display: block;
   }
@@ -338,7 +338,7 @@ a.logo-link:active {
     position: static;
     top: auto;
     left: auto;
-    width: 100%;
+    width: auto;
     height: auto;
     padding: 6px 0;
     flex-wrap: wrap;
@@ -354,7 +354,8 @@ a.logo-link:active {
     color: #fff;
   }
   .footer, .footer-strip, .footer-layout {
-    overflow: hidden;   
+    overflow: hidden;  
+    height: auto; 
   }
   .click {
     top: 9.5%;
